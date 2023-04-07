@@ -9,7 +9,7 @@ To get started, install the npm packages:
 npm install && npm run dev
 
 # With yarn
-yarn & yarn dev
+yarn && yarn dev
 ```
 
 ## 🔑 License
