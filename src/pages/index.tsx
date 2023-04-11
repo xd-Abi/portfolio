@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "@/components/Head";
-import Container from "@/components/Container";
 import Hero from "@/components/Hero";
+import SocialPanel from "@/components/SocialPanel";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
         description="I am a software developer who specializes in game development and enjoys working on a variety of fun projects."
       />
       <main>
+        <SocialPanel />
         <Hero />
       </main>
     </React.Fragment>

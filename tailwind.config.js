@@ -10,6 +10,11 @@ module.exports = {
       fontFamily: {
         sans: [`"Inter"`, "sans-serif"],
       },
+      colors: {
+        gray: {
+          main: "#888",
+        },
+      },
       screens: {
         sm: "640px",
         md: "768px",
@@ -24,7 +29,7 @@ module.exports = {
             transform: "scale(1)",
           },
           "33%": {
-            transform: "scale(1.2)",
+            transform: "scale(1.1)",
           },
           "66%": {
             transform: "scale(0.9)",
