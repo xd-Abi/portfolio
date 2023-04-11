@@ -7,14 +7,32 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {},
-      textColor: {
-        vivid: "#0A1929",
-        dim: "#3E5060",
+      fontFamily: {
+        sans: [`"Inter"`, "sans-serif"],
       },
-      fontSize: {
-        "cover-caption": "36px",
-        "cover-title": "128px",
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+      },
+      animation: {
+        blob: "blob 5s infinite",
+      },
+      keyframes: {
+        blob: {
+          "0%": {
+            transform: "scale(1)",
+          },
+          "33%": {
+            transform: "scale(1.2)",
+          },
+          "66%": {
+            transform: "scale(0.9)",
+          },
+          "100%": {
+            transform: "scale(1)",
+          },
+        },
       },
     },
   },

@@ -1,11 +1,13 @@
 import { default as NextHead } from "next/head";
 
-type Props = {
+export type HeadProps = {
   title?: string;
   description?: string;
 };
 
-export default function Head({ title, description }: Props) {
+export default function Head(props: HeadProps) {
+  const { title, description } = props;
+
   return (
     <NextHead>
       <title>{title}</title>
