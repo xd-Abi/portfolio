@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "New components v2.1.0🎉",
+    "author": {
+      "name": "Abinayan Sureskumar",
+      "github": "@xd-Abi"
+    },
+    "date": "August 21, 2023",
+    "content": "We are thrilled to announce the latest update to NextUI, version 2.1.0! This release introduces some game-changing additions that many of you have eagerly been waiting for. First on the list is the highly-anticipated Select component. Fully customizable and beautifully designed, supports both single and multi-select modes and is accessible out of the box."
+  },
+  {
+    "id": "2",
+    "title": "Auth0 Setup🔒",
+    "author": {
+      "name": "Abinayan Sureskumar",
+      "github": "@xd-Abi"
+    },
+    "date": "August 21, 2023",
+    "content": "Auth0 is a service provider developed by Okta for secure website and backend encryption."
+  }
+]
