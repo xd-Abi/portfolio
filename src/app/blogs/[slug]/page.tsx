@@ -53,7 +53,7 @@ export default function Blog(props: Props) {
             Go Back
           </Link>
 
-          <h1 className="text-9xl text-white font-extrabold mt-10">
+          <h1 className="text-4xl md:text-5xl lg:text-9xl text-white font-extrabold mt-10">
             {blog.title}
           </h1>
           <div className="w-full flex mt-20 md:pr-64">

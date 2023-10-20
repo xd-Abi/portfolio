@@ -14,7 +14,7 @@ export default function Blogs() {
           <h1 className="text-9xl text-white font-extrabold">Blogs</h1>
           <div className="w-full flex mt-20">
             <div className="container mx-auto px-4 lg:px-0">
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {blogs.map(blog => (
                   <Link
                     className="md:col-span-1 lg:col-span-1"
