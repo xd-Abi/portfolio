@@ -26,11 +26,19 @@ export default function Blogs() {
                         {blog.title}
                       </h1>
                       <p className="text-sm pt-2 text-zinc-500">{blog.date}</p>
-                      <p className="text-base pt-5 text-zinc-500">
-                        {blog.content.substring(
-                          0,
-                          blog.content.indexOf(".") + 1
-                        )}
+                      <div className="text-sm pt-4 flex gap-2">
+                        {blog.tags.map(tag => (
+                          <span
+                            key={tag}
+                            className="px-3 py-1 bg-blue-500 text-xs text-white font-medium rounded-full"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+
+                      <p className="text-base pt-8 text-zinc-500">
+                        {blog.content.substring(0, 100)}...
                       </p>
                     </div>
                   </Link>

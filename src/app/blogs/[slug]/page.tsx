@@ -57,7 +57,27 @@ export default function Blog(props: Props) {
             {blog.title}
           </h1>
           <div className="w-full flex mt-20 md:pr-64">
-            <p className="text-white">{blog.content}</p>
+            <div className="flex w-full basis-3/4 pr-32">
+              <p className="text-white">{blog.content}</p>
+            </div>
+            <div className="flex w-full basis-1/4 border-l border-zinc-600 pl-5 flex-col">
+              <p className="text-sm uppercase font-semibold text-zinc-400">
+                Created At
+              </p>
+              <p className="text-base font-semibold text-white pt-3">
+                {blog.date}
+              </p>
+
+              <p className="text-sm uppercase font-semibold text-zinc-400 pt-10">
+                Author
+              </p>
+              <p className="text-base font-semibold text-white pt-3">
+                {blog.author.name}
+              </p>
+              <p className="text-sm font-semibold text-zinc-500 pt-2">
+                {blog.author.github}
+              </p>
+            </div>
           </div>
         </div>
       </div>
